@@ -8,9 +8,28 @@
 import Foundation
 
 // class to define an array which is a list of eateries.
-class ViewModel: ObservableObject, Identifiable {
+class ViewModel: ObservableObject, Identifiable, Codable {
     //an array of Eatery
     @Published var model = [Eatery]()
+    
+    enum CodingKeys: String, CodingKey {
+        case model
+    }
+    
+    init() {
+        model = [Eatery]()
+    }
+    
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        model = try container.decode([Eatery].self, forKey: .model)
+    }
+    
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.container(keyedBy: CodingKeys.self)
+        try container.encode(model, forKey: .model)
+    }
+    
     //function to add a eatery in viewModel
     func addElement() {
         _ = model.count + 1
