@@ -10,11 +10,11 @@ import SwiftUI
 // create Edit Button and Add Button
 struct ContentView: View {
     @ObservedObject var eateries: ViewModel
+    @State private var title = "The Best Eateries:"
     
      var body: some View {
         NavigationView {
-            MasterView(eatery: eateries)
-                .navigationBarTitle(Text("The Best Eateries"))
+            MasterView(eatery: eateries, title: $title)
                 .navigationBarItems(leading:
                         EditButton(),trailing:
                         Button(action: {
