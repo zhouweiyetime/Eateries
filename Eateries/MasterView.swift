@@ -11,7 +11,7 @@ import SwiftUI
 struct MasterView: View {
     //set instance for ViewModel
     @ObservedObject var eatery: ViewModel
-    @Binding var title: String
+   // @Binding var title: String
     let eateriesviewmodel = EateriesViewModel()
     @Environment(\.editMode) var editMode
     
@@ -22,7 +22,7 @@ struct MasterView: View {
             if editMode?.wrappedValue == .active {
                 HStack{
                     Text("📝").font(Font.system(.largeTitle).bold())
-                    TextField("enter title", text: $title).font(Font.system(.largeTitle).bold())
+                    TextField("enter title", text: $eatery.title).font(Font.system(.largeTitle).bold())
                 }
             }
         List{
@@ -45,7 +45,7 @@ struct MasterView: View {
             .onDelete(perform: deleteItems)
             .onMove(perform: moveItems)
         }
-        }.navigationBarTitle(editMode?.wrappedValue == .active ? "" : title)}
+        }.navigationBarTitle(editMode?.wrappedValue == .active ? "" : eatery.title)}
 // create delete item function
     func deleteItems(at offsets: IndexSet) {
         eatery.remove(at: offsets)
