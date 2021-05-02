@@ -11,12 +11,21 @@ struct DetailView: View {
     //set instance for each Eatery
     @ObservedObject var eateries: Eatery
     let eateriesviewmodel = EateriesViewModel()
+    @Environment(\.editMode) var editMode
+    
     
     var body: some View {
             VStack(spacing: 1.0) {
             eateriesviewmodel.download(eateries.EateriesImage)
                 .resizable()
                 .scaledToFit()
+                
+//if the edit mode is on, show the editable textfield
+        if editMode?.wrappedValue == .active {
+            TextField("Enter image URL.", text: $eateries.EateriesImage)
+                .textFieldStyle(RoundedBorderTextFieldStyle())
+        }
+            
 List {
         TextField("Enter Eateries name", text: $eateries.EateriesName)
             .font(.largeTitle)
@@ -28,8 +37,6 @@ List {
         TextField("Enter Note", text: $eateries.EateriesNote)
                 .padding([.top, .bottom, .trailing])
 
-        TextField("Enter image URL.", text: $eateries.EateriesImage)
-            .textFieldStyle(RoundedBorderTextFieldStyle())
         Text("Review")
             .font(.largeTitle)
             .fontWeight(.bold)
@@ -38,9 +45,10 @@ List {
                 TextField("Enter Review", text: $eateries.EateriesReview)
                  }
               }
-         }
-
+            .toolbar{
+                EditButton()}
       }
+}
     
 
 
