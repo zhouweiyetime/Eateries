@@ -37,11 +37,7 @@ struct EateriesApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView(eateries: Binding(get: {
-                EateriesApp.Model
-            }, set: { newValue in
-                EateriesApp.Model = newValue
-            }))
+            ContentView(eateries: eateriesViewModel)
         }
     }
     
