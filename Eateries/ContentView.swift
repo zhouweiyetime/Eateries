@@ -10,7 +10,6 @@ import SwiftUI
 // create Edit Button and Add Button
 struct ContentView: View {
     @ObservedObject var eateries: ViewModel
-//    @State private var title = "The Best Eateries:"
     
      var body: some View {
         NavigationView {

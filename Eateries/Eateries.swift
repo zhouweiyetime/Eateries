@@ -16,6 +16,7 @@ class Eatery: ObservableObject, Identifiable, Codable {
     @Published var EateriesNote: String
     @Published var EateriesReview: String
     
+    //defining basic properties to Encode and Decode Using Coding Keys
     enum CodingKeys: String, CodingKey, RawRepresentable {
         case EateriesImage
         case EateriesName
@@ -34,6 +35,7 @@ class Eatery: ObservableObject, Identifiable, Codable {
         self.EateriesReview = EateriesReview
     }
     
+    //conform to the Decodable protocol by implementing its required initializer
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         EateriesImage = try container.decode(String.self, forKey: .EateriesImage)
@@ -43,6 +45,7 @@ class Eatery: ObservableObject, Identifiable, Codable {
         EateriesReview = try container.decode(String.self, forKey: .EateriesReview)
     }
     
+    //conform to the Encodable protocol by implementing its required function
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(EateriesImage, forKey: .EateriesImage)

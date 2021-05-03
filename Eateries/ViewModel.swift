@@ -11,24 +11,29 @@ import Foundation
 class ViewModel: ObservableObject, Identifiable, Codable {
     //an array of Eatery
     @Published var model = [Eatery]()
+    //a string for master view title
     @Published var title: String
     
+    //defining basic properties to Encode and Decode Using Coding Keys
     enum CodingKeys: String, CodingKey {
         case model
         case title
     }
     
+    //initial view model
     init() {
         model = [Eatery]()
         self.title = "The Best Eateries:"
     }
     
+    //conform to the Decodable protocol by implementing its required initializer
     required init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         model = try container.decode([Eatery].self, forKey: .model)
         title = try container.decode(String.self, forKey: .title)
     }
     
+    //conform to the Encodable protocol by implementing its required function
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         try container.encode(model, forKey: .model)

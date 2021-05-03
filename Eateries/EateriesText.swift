@@ -13,9 +13,9 @@ let OTTOImage = "https://ottoristorante.com.au/brisbane/wp-content/uploads/sites
 
 let OTTOLocation = "Brisbane"
 
-let OTTONote = "123"
+let OTTONote = "Italian restaurant"
 
-let OTTOReview = ""
+let OTTOReview = "Good"
 
 
 
@@ -24,9 +24,9 @@ let HIDEImage = "https://www.telegraph.co.uk/content/dam/food-and-drink/2018/06/
 
 let HIDELocation = "London"
 
-let HIDENote = "234"
+let HIDENote = "British Restaurant"
 
-let HIDEReview = " "
+let HIDEReview = "So So"
 
 
 //Man Wah info
@@ -34,9 +34,9 @@ let WahImage = "https://media.timeout.com/images/105762234/630/472/image.jpg"
 
 let WahLocation = "Hong Kong"
 
-let WahNote = "345"
+let WahNote = "Chinese Restaurant"
 
-let WahReview = ""
+let WahReview = "Not good"
 
 
 //Bus grill info
@@ -44,9 +44,9 @@ let grillImage = "https://media-cdn.tripadvisor.com/media/photo-s/0e/4a/a6/4b/bu
 
 let grillLocation = "Shen Zhen"
 
-let grillNote = "456"
+let grillNote = "American Restaurant"
 
-let grillReview = " "
+let grillReview = "Good "
 
 
 //MR.WONG info
@@ -54,8 +54,8 @@ let WONGImage = "https://s3-ap-southeast-2.amazonaws.com/production.assets.meriv
 
 let WONGLocation = "Sydney"
 
-let WONGNote = "567"
+let WONGNote = "Chinese Restaurant"
 
-let WONGReview = " "
+let WONGReview = "Good"
 
 

@@ -11,8 +11,8 @@ import SwiftUI
 struct MasterView: View {
     //set instance for ViewModel
     @ObservedObject var eatery: ViewModel
-   // @Binding var title: String
     let eateriesviewmodel = EateriesViewModel()
+    //set environment variable editmode which will be use to judge the edit section is on or off
     @Environment(\.editMode) var editMode
     
     
