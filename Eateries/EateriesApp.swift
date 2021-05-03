@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct EateriesApp: App {
+    
     var eateriesViewModel: ViewModel {
         let eateries = [Eatery(EateriesImage: OTTOImage, EateriesName: "OTTO", EateriesLocation: OTTOLocation, EateriesNote: OTTONote, EateriesReview: OTTOReview),
                      
@@ -23,9 +24,45 @@ struct EateriesApp: App {
         viewModel.model = eateries
         return viewModel
     }
+    
+
+    static var Model: [Eatery] = {
+        guard let data = try? Data(contentsOf: EateriesApp.fileURL),
+              let Model = try? JSONDecoder().decode([Eatery].self, from: data) else
+        {
+            return [Eatery(EateriesImage: OTTOImage, EateriesName: "OTTO", EateriesLocation: OTTOLocation, EateriesNote: OTTONote, EateriesReview: OTTOReview)]
+        }
+        return Model
+    }()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView(eateries: eateriesViewModel)
+            ContentView(eateries: Binding(get: {
+                EateriesApp.Model
+            }, set: { newValue in
+                EateriesApp.Model = newValue
+            }))
+        }
+    }
+    
+    
+    static var fileURL: URL {
+        let fileName = "eateries.json"
+        let fm = FileManager.default
+        guard let documentDir = fm.urls(for:  .documentDirectory, in: .userDomainMask).first else {return URL(fileURLWithPath: "/")}
+        let fileURL = documentDir.appendingPathComponent(fileName)
+        return fileURL
+    }
+    
+    static func save() {
+        do {
+            let data = try? JSONEncoder().encode(Model)
+            try data?.write(to: fileURL, options: .atomic)
+            guard let dataString = String(data: data!, encoding: .utf8) else {
+                return }
+            print(dataString)
+        } catch {
+            print("Could not write file: \(error)")
         }
     }
 }
