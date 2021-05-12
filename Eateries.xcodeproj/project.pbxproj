@@ -19,6 +19,11 @@
 		A82FE90C263A5A2A00CCF1F7 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FE90B263A5A2A00CCF1F7 /* MasterView.swift */; };
 		A82FE911263A5B0100CCF1F7 /* EateriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FE910263A5B0100CCF1F7 /* EateriesViewModel.swift */; };
 		A82FE919263A5B4400CCF1F7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82FE918263A5B4400CCF1F7 /* DetailView.swift */; };
+		A85C8136264C1E2100EE7A39 /* EateriesList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A85C8134264C1E2100EE7A39 /* EateriesList.xcdatamodeld */; };
+		A85C8144264C25BE00EE7A39 /* Eateries+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8140264C25BE00EE7A39 /* Eateries+CoreDataClass.swift */; };
+		A85C8145264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8141264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift */; };
+		A85C8146264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8142264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift */; };
+		A85C8147264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8143264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		A82FE90B263A5A2A00CCF1F7 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 		A82FE910263A5B0100CCF1F7 /* EateriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EateriesViewModel.swift; sourceTree = "<group>"; };
 		A82FE918263A5B4400CCF1F7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A85C8135264C1E2100EE7A39 /* EateriesList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EateriesList.xcdatamodel; sourceTree = "<group>"; };
+		A85C8140264C25BE00EE7A39 /* Eateries+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A85C8141264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A85C8142264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A85C8143264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,10 @@
 		A82FE8B9263A4F2500CCF1F7 = {
 			isa = PBXGroup;
 			children = (
+				A85C8140264C25BE00EE7A39 /* Eateries+CoreDataClass.swift */,
+				A85C8141264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift */,
+				A85C8142264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift */,
+				A85C8143264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift */,
 				A82FE8C4263A4F2500CCF1F7 /* Eateries */,
 				A82FE8D6263A4F2600CCF1F7 /* EateriesTests */,
 				A82FE8E1263A4F2600CCF1F7 /* EateriesUITests */,
@@ -109,6 +123,7 @@
 			children = (
 				A82FE8C5263A4F2500CCF1F7 /* EateriesApp.swift */,
 				A82FE8C7263A4F2500CCF1F7 /* ContentView.swift */,
+				A85C8134264C1E2100EE7A39 /* EateriesList.xcdatamodeld */,
 				A82FE90B263A5A2A00CCF1F7 /* MasterView.swift */,
 				A82FE906263A577F00CCF1F7 /* EateriesText.swift */,
 				A82FE8FE263A540C00CCF1F7 /* ViewModel.swift */,
@@ -279,12 +294,17 @@
 			files = (
 				A82FE90C263A5A2A00CCF1F7 /* MasterView.swift in Sources */,
 				A82FE919263A5B4400CCF1F7 /* DetailView.swift in Sources */,
+				A85C8146264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift in Sources */,
 				A82FE8C8263A4F2500CCF1F7 /* ContentView.swift in Sources */,
+				A85C8144264C25BE00EE7A39 /* Eateries+CoreDataClass.swift in Sources */,
+				A85C8136264C1E2100EE7A39 /* EateriesList.xcdatamodeld in Sources */,
 				A82FE907263A577F00CCF1F7 /* EateriesText.swift in Sources */,
+				A85C8145264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift in Sources */,
 				A82FE8C6263A4F2500CCF1F7 /* EateriesApp.swift in Sources */,
 				A82FE8FF263A540C00CCF1F7 /* ViewModel.swift in Sources */,
 				A82FE8F7263A515900CCF1F7 /* Eateries.swift in Sources */,
 				A82FE911263A5B0100CCF1F7 /* EateriesViewModel.swift in Sources */,
+				A85C8147264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +618,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A85C8134264C1E2100EE7A39 /* EateriesList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A85C8135264C1E2100EE7A39 /* EateriesList.xcdatamodel */,
+			);
+			currentVersion = A85C8135264C1E2100EE7A39 /* EateriesList.xcdatamodel */;
+			path = EateriesList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A82FE8BA263A4F2500CCF1F7 /* Project object */;
 }

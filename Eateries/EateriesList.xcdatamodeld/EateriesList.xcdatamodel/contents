@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Eateries" representedClassName="Eateries" syncable="YES" codeGenerationType="class">
+        <attribute name="image" attributeType="String" defaultValueString=""/>
+        <attribute name="location" attributeType="String" defaultValueString=""/>
+        <attribute name="name" attributeType="String" defaultValueString=""/>
+        <attribute name="note" attributeType="String" defaultValueString=""/>
+        <attribute name="review" attributeType="String" defaultValueString=""/>
+        <relationship name="list" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EateriesList" inverseName="eateries" inverseEntity="EateriesList"/>
+    </entity>
+    <entity name="EateriesList" representedClassName="EateriesList" syncable="YES" codeGenerationType="class">
+        <attribute name="title" attributeType="String" defaultValueString="The Best Eateries :"/>
+        <relationship name="eateries" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Eateries" inverseName="list" inverseEntity="Eateries"/>
+    </entity>
+    <elements>
+        <element name="EateriesList" positionX="-460" positionY="103" width="128" height="73"/>
+        <element name="Eateries" positionX="41" positionY="104.5" width="128" height="133"/>
+    </elements>
+</model>
