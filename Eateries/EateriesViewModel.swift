@@ -15,19 +15,19 @@ class EateriesViewModel{
     //convert url image
     func download(_ imageURLString: String) -> Image {
         guard let url = URL(string: imageURLString) else {
-            let EateriesImage = Image("nonexistent")
-            return EateriesImage
+            let image = Image("nonexistent")
+            return image
         }
-        if let EateriesImage = imageEateriesView[url]{
+        if let image = imageEateriesView[url]{
             return EateriesImage
         }
         guard let imageData = try? Data(contentsOf: url),
               let uiImage = UIImage(data: imageData) else{
-              let EateriesImage = Image("nonexistent")
-            return EateriesImage
+              let image = Image("nonexistent")
+            return image
         }
-        let EateriesImage = Image(uiImage: uiImage)
-        imageEateriesView[url] = EateriesImage
-        return EateriesImage
+        let image = Image(uiImage: uiImage)
+        imageEateriesView[url] = image
+        return image
     }
 }

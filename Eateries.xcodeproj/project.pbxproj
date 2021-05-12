@@ -24,6 +24,8 @@
 		A85C8145264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8141264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift */; };
 		A85C8146264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8142264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift */; };
 		A85C8147264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8143264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift */; };
+		A85C814C264C2CE800EE7A39 /* Eateries+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C814B264C2CE800EE7A39 /* Eateries+ViewModel.swift */; };
+		A85C8151264C2CFF00EE7A39 /* EateriesList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8150264C2CFF00EE7A39 /* EateriesList+ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		A85C8141264C25BE00EE7A39 /* Eateries+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A85C8142264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A85C8143264C25BE00EE7A39 /* EateriesList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A85C814B264C2CE800EE7A39 /* Eateries+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+ViewModel.swift"; sourceTree = "<group>"; };
+		A85C8150264C2CFF00EE7A39 /* EateriesList+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,8 @@
 				A82FE90B263A5A2A00CCF1F7 /* MasterView.swift */,
 				A82FE906263A577F00CCF1F7 /* EateriesText.swift */,
 				A82FE8FE263A540C00CCF1F7 /* ViewModel.swift */,
+				A85C8150264C2CFF00EE7A39 /* EateriesList+ViewModel.swift */,
+				A85C814B264C2CE800EE7A39 /* Eateries+ViewModel.swift */,
 				A82FE910263A5B0100CCF1F7 /* EateriesViewModel.swift */,
 				A82FE8F6263A515900CCF1F7 /* Eateries.swift */,
 				A82FE918263A5B4400CCF1F7 /* DetailView.swift */,
@@ -292,6 +298,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85C814C264C2CE800EE7A39 /* Eateries+ViewModel.swift in Sources */,
+				A85C8151264C2CFF00EE7A39 /* EateriesList+ViewModel.swift in Sources */,
 				A82FE90C263A5A2A00CCF1F7 /* MasterView.swift in Sources */,
 				A82FE919263A5B4400CCF1F7 /* DetailView.swift in Sources */,
 				A85C8146264C25BE00EE7A39 /* EateriesList+CoreDataClass.swift in Sources */,
