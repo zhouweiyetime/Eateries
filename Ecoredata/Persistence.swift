@@ -5,6 +5,8 @@
 //  Created by Weiye Zhou on 14/5/21.
 //
 
+
+
 import CoreData
 
 struct PersistenceController {
@@ -13,9 +15,10 @@ struct PersistenceController {
     static var preview: PersistenceController = {
         let result = PersistenceController(inMemory: true)
         let viewContext = result.container.viewContext
-        for _ in 0..<10 {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
+
+        for i in 0..<10 {
+            let eateries = Eateries(context: viewContext)
+            eateries.name = "Eateries #\(i)"
         }
         do {
             try viewContext.save()
@@ -31,7 +34,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "Ecoredata")
+        container = NSPersistentContainer(name: "Eateries")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

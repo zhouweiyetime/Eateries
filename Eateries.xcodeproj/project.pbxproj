@@ -30,6 +30,12 @@
 		A88E8C52264E787700400649 /* Ecoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C50264E787700400649 /* Ecoredata.xcdatamodeld */; };
 		A88E8C5D264E787700400649 /* EcoredataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C5C264E787700400649 /* EcoredataTests.swift */; };
 		A88E8C68264E787700400649 /* EcoredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C67264E787700400649 /* EcoredataUITests.swift */; };
+		A88E8C89264E7A6500400649 /* Eateries+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C88264E7A6500400649 /* Eateries+ViewModel.swift */; };
+		A88E8C9D264E7A8D00400649 /* EateriesList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C9C264E7A8D00400649 /* EateriesList+ViewModel.swift */; };
+		A88E8CAB264E7C4F00400649 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8CAA264E7C4F00400649 /* MasterView.swift */; };
+		A88E8CB3264E7D8B00400649 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8CB2264E7D8B00400649 /* RowView.swift */; };
+		A88E8CBB264E7D9900400649 /* DetialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8CBA264E7D9900400649 /* DetialView.swift */; };
+		A88E8CC3264E7E7100400649 /* EateriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8CC2264E7E7100400649 /* EateriesViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +109,12 @@
 		A88E8C85264E79EA00400649 /* EateriesList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		A88E8C86264E79EA00400649 /* Eateries+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataClass.swift"; sourceTree = "<group>"; };
 		A88E8C87264E79EA00400649 /* Eateries+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A88E8C88264E7A6500400649 /* Eateries+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+ViewModel.swift"; sourceTree = "<group>"; };
+		A88E8C9C264E7A8D00400649 /* EateriesList+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+ViewModel.swift"; sourceTree = "<group>"; };
+		A88E8CAA264E7C4F00400649 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		A88E8CB2264E7D8B00400649 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		A88E8CBA264E7D9900400649 /* DetialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetialView.swift; sourceTree = "<group>"; };
+		A88E8CC2264E7E7100400649 /* EateriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EateriesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,7 +241,13 @@
 			children = (
 				A88E8C83264E79EA00400649 /* code */,
 				A88E8C45264E787600400649 /* EcoredataApp.swift */,
+				A88E8C88264E7A6500400649 /* Eateries+ViewModel.swift */,
+				A88E8C9C264E7A8D00400649 /* EateriesList+ViewModel.swift */,
 				A88E8C47264E787600400649 /* ContentView.swift */,
+				A88E8CAA264E7C4F00400649 /* MasterView.swift */,
+				A88E8CB2264E7D8B00400649 /* RowView.swift */,
+				A88E8CC2264E7E7100400649 /* EateriesViewModel.swift */,
+				A88E8CBA264E7D9900400649 /* DetialView.swift */,
 				A88E8C49264E787700400649 /* Assets.xcassets */,
 				A88E8C4E264E787700400649 /* Persistence.swift */,
 				A88E8C53264E787700400649 /* Info.plist */,
@@ -529,10 +547,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88E8CC3264E7E7100400649 /* EateriesViewModel.swift in Sources */,
 				A88E8C4F264E787700400649 /* Persistence.swift in Sources */,
+				A88E8C9D264E7A8D00400649 /* EateriesList+ViewModel.swift in Sources */,
+				A88E8CBB264E7D9900400649 /* DetialView.swift in Sources */,
+				A88E8CAB264E7C4F00400649 /* MasterView.swift in Sources */,
+				A88E8CB3264E7D8B00400649 /* RowView.swift in Sources */,
 				A88E8C48264E787600400649 /* ContentView.swift in Sources */,
 				A88E8C52264E787700400649 /* Ecoredata.xcdatamodeld in Sources */,
 				A88E8C46264E787600400649 /* EcoredataApp.swift in Sources */,
+				A88E8C89264E7A6500400649 /* Eateries+ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
