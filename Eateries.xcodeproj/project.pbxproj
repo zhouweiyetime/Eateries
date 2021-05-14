@@ -22,14 +22,14 @@
 		A85C8136264C1E2100EE7A39 /* EateriesList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A85C8134264C1E2100EE7A39 /* EateriesList.xcdatamodeld */; };
 		A85C814C264C2CE800EE7A39 /* Eateries+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C814B264C2CE800EE7A39 /* Eateries+ViewModel.swift */; };
 		A85C8151264C2CFF00EE7A39 /* EateriesList+ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C8150264C2CFF00EE7A39 /* EateriesList+ViewModel.swift */; };
-		A88E8BCF264E73D100400649 /* CoreDataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8BCE264E73D100400649 /* CoreDataApp.swift */; };
-		A88E8BD1264E73D100400649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8BD0264E73D100400649 /* ContentView.swift */; };
-		A88E8BD3264E73D100400649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88E8BD2264E73D100400649 /* Assets.xcassets */; };
-		A88E8BD6264E73D100400649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88E8BD5264E73D100400649 /* Preview Assets.xcassets */; };
-		A88E8BD8264E73D100400649 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8BD7264E73D100400649 /* Persistence.swift */; };
-		A88E8BDB264E73D100400649 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A88E8BD9264E73D100400649 /* CoreData.xcdatamodeld */; };
-		A88E8BE6264E73D100400649 /* CoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8BE5264E73D100400649 /* CoreDataTests.swift */; };
-		A88E8BF1264E73D100400649 /* CoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8BF0264E73D100400649 /* CoreDataUITests.swift */; };
+		A88E8C46264E787600400649 /* EcoredataApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C45264E787600400649 /* EcoredataApp.swift */; };
+		A88E8C48264E787600400649 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C47264E787600400649 /* ContentView.swift */; };
+		A88E8C4A264E787700400649 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88E8C49264E787700400649 /* Assets.xcassets */; };
+		A88E8C4D264E787700400649 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88E8C4C264E787700400649 /* Preview Assets.xcassets */; };
+		A88E8C4F264E787700400649 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C4E264E787700400649 /* Persistence.swift */; };
+		A88E8C52264E787700400649 /* Ecoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C50264E787700400649 /* Ecoredata.xcdatamodeld */; };
+		A88E8C5D264E787700400649 /* EcoredataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C5C264E787700400649 /* EcoredataTests.swift */; };
+		A88E8C68264E787700400649 /* EcoredataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88E8C67264E787700400649 /* EcoredataUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,19 +47,19 @@
 			remoteGlobalIDString = A82FE8C1263A4F2500CCF1F7;
 			remoteInfo = Eateries;
 		};
-		A88E8BE2264E73D100400649 /* PBXContainerItemProxy */ = {
+		A88E8C59264E787700400649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A82FE8BA263A4F2500CCF1F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A88E8BCB264E73D100400649;
-			remoteInfo = CoreData;
+			remoteGlobalIDString = A88E8C42264E787600400649;
+			remoteInfo = Ecoredata;
 		};
-		A88E8BED264E73D100400649 /* PBXContainerItemProxy */ = {
+		A88E8C64264E787700400649 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A82FE8BA263A4F2500CCF1F7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A88E8BCB264E73D100400649;
-			remoteInfo = CoreData;
+			remoteGlobalIDString = A88E8C42264E787600400649;
+			remoteInfo = Ecoredata;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -85,24 +85,24 @@
 		A85C8135264C1E2100EE7A39 /* EateriesList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EateriesList.xcdatamodel; sourceTree = "<group>"; };
 		A85C814B264C2CE800EE7A39 /* Eateries+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+ViewModel.swift"; sourceTree = "<group>"; };
 		A85C8150264C2CFF00EE7A39 /* EateriesList+ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+ViewModel.swift"; sourceTree = "<group>"; };
-		A88E8BCC264E73D100400649 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A88E8BCE264E73D100400649 /* CoreDataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataApp.swift; sourceTree = "<group>"; };
-		A88E8BD0264E73D100400649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A88E8BD2264E73D100400649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A88E8BD5264E73D100400649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A88E8BD7264E73D100400649 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A88E8BDA264E73D100400649 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
-		A88E8BDC264E73D100400649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A88E8BE1264E73D100400649 /* CoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A88E8BE5264E73D100400649 /* CoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTests.swift; sourceTree = "<group>"; };
-		A88E8BE7264E73D100400649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A88E8BEC264E73D100400649 /* CoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A88E8BF0264E73D100400649 /* CoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUITests.swift; sourceTree = "<group>"; };
-		A88E8BF2264E73D100400649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A88E8C07264E74BD00400649 /* EateriesList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A88E8C08264E74BD00400649 /* EateriesList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		A88E8C09264E74BD00400649 /* Eateries+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataClass.swift"; sourceTree = "<group>"; };
-		A88E8C0A264E74BD00400649 /* Eateries+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A88E8C43264E787600400649 /* Ecoredata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecoredata.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88E8C45264E787600400649 /* EcoredataApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoredataApp.swift; sourceTree = "<group>"; };
+		A88E8C47264E787600400649 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A88E8C49264E787700400649 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A88E8C4C264E787700400649 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A88E8C4E264E787700400649 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A88E8C51264E787700400649 /* Ecoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ecoredata.xcdatamodel; sourceTree = "<group>"; };
+		A88E8C53264E787700400649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88E8C58264E787700400649 /* EcoredataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoredataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88E8C5C264E787700400649 /* EcoredataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoredataTests.swift; sourceTree = "<group>"; };
+		A88E8C5E264E787700400649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88E8C63264E787700400649 /* EcoredataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcoredataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A88E8C67264E787700400649 /* EcoredataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoredataUITests.swift; sourceTree = "<group>"; };
+		A88E8C69264E787700400649 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A88E8C84264E79EA00400649 /* EateriesList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A88E8C85264E79EA00400649 /* EateriesList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EateriesList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A88E8C86264E79EA00400649 /* Eateries+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A88E8C87264E79EA00400649 /* Eateries+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Eateries+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,21 +127,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BC9264E73D100400649 /* Frameworks */ = {
+		A88E8C40264E787600400649 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BDE264E73D100400649 /* Frameworks */ = {
+		A88E8C55264E787700400649 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BE9264E73D100400649 /* Frameworks */ = {
+		A88E8C60264E787700400649 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -157,9 +157,9 @@
 				A82FE8C4263A4F2500CCF1F7 /* Eateries */,
 				A82FE8D6263A4F2600CCF1F7 /* EateriesTests */,
 				A82FE8E1263A4F2600CCF1F7 /* EateriesUITests */,
-				A88E8BCD264E73D100400649 /* CoreData */,
-				A88E8BE4264E73D100400649 /* CoreDataTests */,
-				A88E8BEF264E73D100400649 /* CoreDataUITests */,
+				A88E8C44264E787600400649 /* Ecoredata */,
+				A88E8C5B264E787700400649 /* EcoredataTests */,
+				A88E8C66264E787700400649 /* EcoredataUITests */,
 				A82FE8C3263A4F2500CCF1F7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -170,9 +170,9 @@
 				A82FE8C2263A4F2500CCF1F7 /* Eateries.app */,
 				A82FE8D3263A4F2600CCF1F7 /* EateriesTests.xctest */,
 				A82FE8DE263A4F2600CCF1F7 /* EateriesUITests.xctest */,
-				A88E8BCC264E73D100400649 /* CoreData.app */,
-				A88E8BE1264E73D100400649 /* CoreDataTests.xctest */,
-				A88E8BEC264E73D100400649 /* CoreDataUITests.xctest */,
+				A88E8C43264E787600400649 /* Ecoredata.app */,
+				A88E8C58264E787700400649 /* EcoredataTests.xctest */,
+				A88E8C63264E787700400649 /* EcoredataUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,54 +224,54 @@
 			path = EateriesUITests;
 			sourceTree = "<group>";
 		};
-		A88E8BCD264E73D100400649 /* CoreData */ = {
+		A88E8C44264E787600400649 /* Ecoredata */ = {
 			isa = PBXGroup;
 			children = (
-				A88E8C06264E74BD00400649 /* code */,
-				A88E8BCE264E73D100400649 /* CoreDataApp.swift */,
-				A88E8BD0264E73D100400649 /* ContentView.swift */,
-				A88E8BD2264E73D100400649 /* Assets.xcassets */,
-				A88E8BD7264E73D100400649 /* Persistence.swift */,
-				A88E8BDC264E73D100400649 /* Info.plist */,
-				A88E8BD9264E73D100400649 /* CoreData.xcdatamodeld */,
-				A88E8BD4264E73D100400649 /* Preview Content */,
+				A88E8C83264E79EA00400649 /* code */,
+				A88E8C45264E787600400649 /* EcoredataApp.swift */,
+				A88E8C47264E787600400649 /* ContentView.swift */,
+				A88E8C49264E787700400649 /* Assets.xcassets */,
+				A88E8C4E264E787700400649 /* Persistence.swift */,
+				A88E8C53264E787700400649 /* Info.plist */,
+				A88E8C50264E787700400649 /* Ecoredata.xcdatamodeld */,
+				A88E8C4B264E787700400649 /* Preview Content */,
 			);
-			path = CoreData;
+			path = Ecoredata;
 			sourceTree = "<group>";
 		};
-		A88E8BD4264E73D100400649 /* Preview Content */ = {
+		A88E8C4B264E787700400649 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A88E8BD5264E73D100400649 /* Preview Assets.xcassets */,
+				A88E8C4C264E787700400649 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A88E8BE4264E73D100400649 /* CoreDataTests */ = {
+		A88E8C5B264E787700400649 /* EcoredataTests */ = {
 			isa = PBXGroup;
 			children = (
-				A88E8BE5264E73D100400649 /* CoreDataTests.swift */,
-				A88E8BE7264E73D100400649 /* Info.plist */,
+				A88E8C5C264E787700400649 /* EcoredataTests.swift */,
+				A88E8C5E264E787700400649 /* Info.plist */,
 			);
-			path = CoreDataTests;
+			path = EcoredataTests;
 			sourceTree = "<group>";
 		};
-		A88E8BEF264E73D100400649 /* CoreDataUITests */ = {
+		A88E8C66264E787700400649 /* EcoredataUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A88E8BF0264E73D100400649 /* CoreDataUITests.swift */,
-				A88E8BF2264E73D100400649 /* Info.plist */,
+				A88E8C67264E787700400649 /* EcoredataUITests.swift */,
+				A88E8C69264E787700400649 /* Info.plist */,
 			);
-			path = CoreDataUITests;
+			path = EcoredataUITests;
 			sourceTree = "<group>";
 		};
-		A88E8C06264E74BD00400649 /* code */ = {
+		A88E8C83264E79EA00400649 /* code */ = {
 			isa = PBXGroup;
 			children = (
-				A88E8C07264E74BD00400649 /* EateriesList+CoreDataClass.swift */,
-				A88E8C08264E74BD00400649 /* EateriesList+CoreDataProperties.swift */,
-				A88E8C09264E74BD00400649 /* Eateries+CoreDataClass.swift */,
-				A88E8C0A264E74BD00400649 /* Eateries+CoreDataProperties.swift */,
+				A88E8C84264E79EA00400649 /* EateriesList+CoreDataClass.swift */,
+				A88E8C85264E79EA00400649 /* EateriesList+CoreDataProperties.swift */,
+				A88E8C86264E79EA00400649 /* Eateries+CoreDataClass.swift */,
+				A88E8C87264E79EA00400649 /* Eateries+CoreDataProperties.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -332,57 +332,57 @@
 			productReference = A82FE8DE263A4F2600CCF1F7 /* EateriesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		A88E8BCB264E73D100400649 /* CoreData */ = {
+		A88E8C42264E787600400649 /* Ecoredata */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A88E8BF3264E73D100400649 /* Build configuration list for PBXNativeTarget "CoreData" */;
+			buildConfigurationList = A88E8C6A264E787700400649 /* Build configuration list for PBXNativeTarget "Ecoredata" */;
 			buildPhases = (
-				A88E8BC8264E73D100400649 /* Sources */,
-				A88E8BC9264E73D100400649 /* Frameworks */,
-				A88E8BCA264E73D100400649 /* Resources */,
+				A88E8C3F264E787600400649 /* Sources */,
+				A88E8C40264E787600400649 /* Frameworks */,
+				A88E8C41264E787600400649 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoreData;
-			productName = CoreData;
-			productReference = A88E8BCC264E73D100400649 /* CoreData.app */;
+			name = Ecoredata;
+			productName = Ecoredata;
+			productReference = A88E8C43264E787600400649 /* Ecoredata.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A88E8BE0264E73D100400649 /* CoreDataTests */ = {
+		A88E8C57264E787700400649 /* EcoredataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A88E8BF6264E73D100400649 /* Build configuration list for PBXNativeTarget "CoreDataTests" */;
+			buildConfigurationList = A88E8C6D264E787700400649 /* Build configuration list for PBXNativeTarget "EcoredataTests" */;
 			buildPhases = (
-				A88E8BDD264E73D100400649 /* Sources */,
-				A88E8BDE264E73D100400649 /* Frameworks */,
-				A88E8BDF264E73D100400649 /* Resources */,
+				A88E8C54264E787700400649 /* Sources */,
+				A88E8C55264E787700400649 /* Frameworks */,
+				A88E8C56264E787700400649 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A88E8BE3264E73D100400649 /* PBXTargetDependency */,
+				A88E8C5A264E787700400649 /* PBXTargetDependency */,
 			);
-			name = CoreDataTests;
-			productName = CoreDataTests;
-			productReference = A88E8BE1264E73D100400649 /* CoreDataTests.xctest */;
+			name = EcoredataTests;
+			productName = EcoredataTests;
+			productReference = A88E8C58264E787700400649 /* EcoredataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A88E8BEB264E73D100400649 /* CoreDataUITests */ = {
+		A88E8C62264E787700400649 /* EcoredataUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A88E8BF9264E73D100400649 /* Build configuration list for PBXNativeTarget "CoreDataUITests" */;
+			buildConfigurationList = A88E8C70264E787700400649 /* Build configuration list for PBXNativeTarget "EcoredataUITests" */;
 			buildPhases = (
-				A88E8BE8264E73D100400649 /* Sources */,
-				A88E8BE9264E73D100400649 /* Frameworks */,
-				A88E8BEA264E73D100400649 /* Resources */,
+				A88E8C5F264E787700400649 /* Sources */,
+				A88E8C60264E787700400649 /* Frameworks */,
+				A88E8C61264E787700400649 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A88E8BEE264E73D100400649 /* PBXTargetDependency */,
+				A88E8C65264E787700400649 /* PBXTargetDependency */,
 			);
-			name = CoreDataUITests;
-			productName = CoreDataUITests;
-			productReference = A88E8BEC264E73D100400649 /* CoreDataUITests.xctest */;
+			name = EcoredataUITests;
+			productName = EcoredataUITests;
+			productReference = A88E8C63264E787700400649 /* EcoredataUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -405,16 +405,16 @@
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = A82FE8C1263A4F2500CCF1F7;
 					};
-					A88E8BCB264E73D100400649 = {
+					A88E8C42264E787600400649 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					A88E8BE0264E73D100400649 = {
+					A88E8C57264E787700400649 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = A88E8BCB264E73D100400649;
+						TestTargetID = A88E8C42264E787600400649;
 					};
-					A88E8BEB264E73D100400649 = {
+					A88E8C62264E787700400649 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = A88E8BCB264E73D100400649;
+						TestTargetID = A88E8C42264E787600400649;
 					};
 				};
 			};
@@ -434,9 +434,9 @@
 				A82FE8C1263A4F2500CCF1F7 /* Eateries */,
 				A82FE8D2263A4F2600CCF1F7 /* EateriesTests */,
 				A82FE8DD263A4F2600CCF1F7 /* EateriesUITests */,
-				A88E8BCB264E73D100400649 /* CoreData */,
-				A88E8BE0264E73D100400649 /* CoreDataTests */,
-				A88E8BEB264E73D100400649 /* CoreDataUITests */,
+				A88E8C42264E787600400649 /* Ecoredata */,
+				A88E8C57264E787700400649 /* EcoredataTests */,
+				A88E8C62264E787700400649 /* EcoredataUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,23 +465,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BCA264E73D100400649 /* Resources */ = {
+		A88E8C41264E787600400649 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88E8BD6264E73D100400649 /* Preview Assets.xcassets in Resources */,
-				A88E8BD3264E73D100400649 /* Assets.xcassets in Resources */,
+				A88E8C4D264E787700400649 /* Preview Assets.xcassets in Resources */,
+				A88E8C4A264E787700400649 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BDF264E73D100400649 /* Resources */ = {
+		A88E8C56264E787700400649 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BEA264E73D100400649 /* Resources */ = {
+		A88E8C61264E787700400649 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -525,30 +525,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BC8264E73D100400649 /* Sources */ = {
+		A88E8C3F264E787600400649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88E8BDB264E73D100400649 /* CoreData.xcdatamodeld in Sources */,
-				A88E8BD8264E73D100400649 /* Persistence.swift in Sources */,
-				A88E8BD1264E73D100400649 /* ContentView.swift in Sources */,
-				A88E8BCF264E73D100400649 /* CoreDataApp.swift in Sources */,
+				A88E8C4F264E787700400649 /* Persistence.swift in Sources */,
+				A88E8C48264E787600400649 /* ContentView.swift in Sources */,
+				A88E8C52264E787700400649 /* Ecoredata.xcdatamodeld in Sources */,
+				A88E8C46264E787600400649 /* EcoredataApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BDD264E73D100400649 /* Sources */ = {
+		A88E8C54264E787700400649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88E8BE6264E73D100400649 /* CoreDataTests.swift in Sources */,
+				A88E8C5D264E787700400649 /* EcoredataTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A88E8BE8264E73D100400649 /* Sources */ = {
+		A88E8C5F264E787700400649 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A88E8BF1264E73D100400649 /* CoreDataUITests.swift in Sources */,
+				A88E8C68264E787700400649 /* EcoredataUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,15 +565,15 @@
 			target = A82FE8C1263A4F2500CCF1F7 /* Eateries */;
 			targetProxy = A82FE8DF263A4F2600CCF1F7 /* PBXContainerItemProxy */;
 		};
-		A88E8BE3264E73D100400649 /* PBXTargetDependency */ = {
+		A88E8C5A264E787700400649 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A88E8BCB264E73D100400649 /* CoreData */;
-			targetProxy = A88E8BE2264E73D100400649 /* PBXContainerItemProxy */;
+			target = A88E8C42264E787600400649 /* Ecoredata */;
+			targetProxy = A88E8C59264E787700400649 /* PBXContainerItemProxy */;
 		};
-		A88E8BEE264E73D100400649 /* PBXTargetDependency */ = {
+		A88E8C65264E787700400649 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A88E8BCB264E73D100400649 /* CoreData */;
-			targetProxy = A88E8BED264E73D100400649 /* PBXContainerItemProxy */;
+			target = A88E8C42264E787600400649 /* Ecoredata */;
+			targetProxy = A88E8C64264E787700400649 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -816,125 +816,125 @@
 			};
 			name = Release;
 		};
-		A88E8BF4264E73D100400649 /* Debug */ = {
+		A88E8C6B264E787700400649 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreData/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ecoredata/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CoreData/Info.plist;
+				INFOPLIST_FILE = Ecoredata/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.CoreData;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.Ecoredata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A88E8BF5264E73D100400649 /* Release */ = {
+		A88E8C6C264E787700400649 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"CoreData/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Ecoredata/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CoreData/Info.plist;
+				INFOPLIST_FILE = Ecoredata/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.CoreData;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.Ecoredata;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A88E8BF7264E73D100400649 /* Debug */ = {
+		A88E8C6E264E787700400649 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreDataTests/Info.plist;
+				INFOPLIST_FILE = EcoredataTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.CoreDataTests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.EcoredataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoredata.app/Ecoredata";
 			};
 			name = Debug;
 		};
-		A88E8BF8264E73D100400649 /* Release */ = {
+		A88E8C6F264E787700400649 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreDataTests/Info.plist;
+				INFOPLIST_FILE = EcoredataTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.CoreDataTests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.EcoredataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoreData.app/CoreData";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecoredata.app/Ecoredata";
 			};
 			name = Release;
 		};
-		A88E8BFA264E73D100400649 /* Debug */ = {
+		A88E8C71264E787700400649 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreDataUITests/Info.plist;
+				INFOPLIST_FILE = EcoredataUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.CoreDataUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.EcoredataUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoreData;
+				TEST_TARGET_NAME = Ecoredata;
 			};
 			name = Debug;
 		};
-		A88E8BFB264E73D100400649 /* Release */ = {
+		A88E8C72264E787700400649 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoreDataUITests/Info.plist;
+				INFOPLIST_FILE = EcoredataUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.CoreDataUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = au.edu.griffith.ict.prog.Eateries.EcoredataUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CoreData;
+				TEST_TARGET_NAME = Ecoredata;
 			};
 			name = Release;
 		};
@@ -977,29 +977,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A88E8BF3264E73D100400649 /* Build configuration list for PBXNativeTarget "CoreData" */ = {
+		A88E8C6A264E787700400649 /* Build configuration list for PBXNativeTarget "Ecoredata" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A88E8BF4264E73D100400649 /* Debug */,
-				A88E8BF5264E73D100400649 /* Release */,
+				A88E8C6B264E787700400649 /* Debug */,
+				A88E8C6C264E787700400649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A88E8BF6264E73D100400649 /* Build configuration list for PBXNativeTarget "CoreDataTests" */ = {
+		A88E8C6D264E787700400649 /* Build configuration list for PBXNativeTarget "EcoredataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A88E8BF7264E73D100400649 /* Debug */,
-				A88E8BF8264E73D100400649 /* Release */,
+				A88E8C6E264E787700400649 /* Debug */,
+				A88E8C6F264E787700400649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A88E8BF9264E73D100400649 /* Build configuration list for PBXNativeTarget "CoreDataUITests" */ = {
+		A88E8C70264E787700400649 /* Build configuration list for PBXNativeTarget "EcoredataUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A88E8BFA264E73D100400649 /* Debug */,
-				A88E8BFB264E73D100400649 /* Release */,
+				A88E8C71264E787700400649 /* Debug */,
+				A88E8C72264E787700400649 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1017,13 +1017,13 @@
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
-		A88E8BD9264E73D100400649 /* CoreData.xcdatamodeld */ = {
+		A88E8C50264E787700400649 /* Ecoredata.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A88E8BDA264E73D100400649 /* CoreData.xcdatamodel */,
+				A88E8C51264E787700400649 /* Ecoredata.xcdatamodel */,
 			);
-			currentVersion = A88E8BDA264E73D100400649 /* CoreData.xcdatamodel */;
-			path = CoreData.xcdatamodeld;
+			currentVersion = A88E8C51264E787700400649 /* Ecoredata.xcdatamodel */;
+			path = Ecoredata.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
